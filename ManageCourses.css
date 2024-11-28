@@ -1,0 +1,41 @@
+/* ManageCourses.css */
+
+.courses-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.courses-table th,
+.courses-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.courses-table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.courses-table tr:nth-child(even) {
+    background-color: #4CAF50;
+}
+
+.courses-table tr:hover {
+    background-color: #0ca736;
+}
+
+button {
+    margin-right: 5px;
+    background-color: #ff0026;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,61 @@
+.manage-institutions-container {
+    padding: 20px;
+    background-color: #44803F;
+    color: #ffffff;
+}
+
+.crud-form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.crud-form input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.crud-form button {
+    padding: 10px 15px;
+    background-color: #5a9e6b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.crud-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.crud-table th,
+.crud-table td {
+    border: 1px solid #fff;
+    padding: 10px;
+    text-align: left;
+}
+
+.crud-table th {
+    background-color: #4a7f56;
+}
+
+.crud-table tr:hover {
+    background-color: #3f693f;
+}
+
+.crud-table button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    background-color: #ff5c5c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.crud-table button:hover {
+    background-color: #ff1c1c;
+}
